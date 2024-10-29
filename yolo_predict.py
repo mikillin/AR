@@ -2,7 +2,7 @@ from ultralytics import YOLO
 import cv2
 
 # Load a pretrained YOLOv5 model, like yolov5s (YOLOv8 models can also be loaded similarly)
-model = YOLO("../ultralytics/runs/detect/train/weights/best.pt")  # replace with your model path if it's custom-trained
+model = YOLO("../runs/detect/train/weights/best.pt")  # replace with your model path if it's custom-trained
 
 
 # Option 2: Use an OpenCV image
